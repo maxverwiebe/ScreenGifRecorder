@@ -28,7 +28,7 @@ Screen Gif Recorder is a Python-based tool that allows you to record a selected 
 Run the script with the desired parameters using Python:
 
 ```bash
-python3 script.py [--quality QUALITY] [--output OUTPUT] [--delay DELAY]
+python3 screengifrecorder.py [--quality QUALITY] [--output OUTPUT] [--delay DELAY]
 ```
 
 ### Command-Line Arguments
@@ -50,19 +50,19 @@ python3 script.py [--quality QUALITY] [--output OUTPUT] [--delay DELAY]
 - **Run with default settings:**
 
   ```bash
-  python3 script.py
+  python3 screengifrecorder.py
   ```
 
 - **Custom quality and output file:**
 
   ```bash
-  python3 script.py --quality 128 --output my_animation.gif
+  python3 screengifrecorder.py --quality 128 --output my_animation.gif
   ```
 
 - **Custom delay between frames:**
 
   ```bash
-  python3 script.py --delay 0.2
+  python3 screengifrecorder.py --delay 0.2
   ```
 
 ## How It Works
@@ -82,7 +82,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Disclaimer
 This tool is provided "as is" without any warranty. Use it at your own risk.
 ```
-
----
-
-Feel free to modify the content as needed for your project. Replace `your-username` with your actual GitHub username and adjust any other details specific to your project.
